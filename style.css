@@ -3,6 +3,10 @@ html {
   -ms-text-size-adjust: 100%;
   font-family: sans-serif;
 }
+body,
+html {
+  overflow-x: hidden !important;
+}
 body {
   margin: 0;
 }
@@ -6151,12 +6155,18 @@ figcaption {
   font-size: 70px;
 }
 @media screen and (max-width: 768px) {
+  .lottie {
+    transform: translate(2px, -17px);
+  }
+  .ttl {
+    font-size: 53px;
+  }
   .cta {
     font-size: 37px;
     padding-bottom: 37px;
   }
   .fnt {
-    font-size: 65px;
+    font-size: 57px;
   }
   .dp_mob {
     display: none;
