@@ -6135,3 +6135,36 @@ figcaption {
   padding-bottom: 10px;
   height: 304px;
 }
+.subttl {
+  font-size: 170px;
+}
+.dp_mob {
+  display: block;
+}
+.fnt {
+  font-size: 70px;
+}
+@media screen and (max-width: 768px) {
+  .cta {
+    font-size: 37px;
+    padding-bottom: 37px;
+  }
+  .fnt {
+    font-size: 65px;
+  }
+  .dp_mob {
+    display: none;
+  }
+  .title {
+    color: #fff;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: Changa One, Impact, sans-serif;
+  }
+  .subttl {
+    font-size: 160px;
+  }
+  .detail-footer-content {
+    display: none;
+  }
+}
