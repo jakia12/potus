@@ -26,6 +26,12 @@ body {
   font-size: 120px;
   font-weight: bold;
   font-family: Changa One, Impact, sans-serif;
+  text-shadow: 0.023880597em 0.023880597em 0 #000,
+    -0.023880597em -0.023880597em 0 #000, 0.023880597em -0.023880597em 0 #000,
+    -0.023880597em 0.023880597em 0 #000, 0 0.023880597em 0 #000,
+    0 -0.023880597em 0 #000, -0.023880597em 0 0 #000, 0.023880597em 0 0 #000,
+    0.023880597em 0.0417910448em 0 #000, -0.023880597em 0.0417910448em 0 #000,
+    0 0.0417910448em 0 #000;
 }
 article,
 aside,
@@ -6157,7 +6163,7 @@ figcaption {
   }
   .title {
     color: #fff;
-    font-size: 80px;
+    font-size: 74px;
     font-weight: bold;
     font-family: Changa One, Impact, sans-serif;
   }
