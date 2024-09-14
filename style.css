@@ -6154,7 +6154,11 @@ figcaption {
 .fnt {
   font-size: 70px;
 }
+
 @media screen and (max-width: 768px) {
+  .blk {
+    display: none;
+  }
   .lottie {
     transform: translate(2px, -17px);
   }
